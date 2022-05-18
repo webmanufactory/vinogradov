@@ -37,11 +37,31 @@ img {
   max-width: 130px;
 }
 
-.main__subtitle {
+.main__title {
   margin-top: 5px;
+  margin-bottom: 0;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 24px;
+  color: #959595;
+  text-decoration: none;
+}
+
+.main__title:focus,
+.main__title:hover {
+  color: #959595;
+  text-decoration: none;
+}
+
+.animation__title {
   margin-bottom: 25px;
+}
+
+.main__subtitle {
+  margin: 0;
   font-weight: 300;
   font-size: 14px;
+  color: #808080;
 }
 
 .main__links {
@@ -64,8 +84,7 @@ img {
 }
 
 .main__link:hover path,
-.main__link:focus path,
-.main__link:active path {
+.main__link:focus path {
   fill: #21CB84;
 }
 

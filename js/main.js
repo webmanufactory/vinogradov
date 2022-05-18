@@ -2,14 +2,14 @@ function play() {
   var l = Snap('#logo');
 
   setTimeout(function () {
-    var logoTitle = 'Vinogradov Grigory';
+    var logoTitle = 'Художник, Blockchain developer';
     var logoRandom = '';
     var logoTitleContainer = l.text(0, '90%', '');
     var possible = "-+*/|}{[]~\\\":;?/.><=+-_)(*&^%$#@!)}";
     logoTitleContainer.attr({
-      fontSize: 110,
+      fontSize: 45,
       fontFamily: 'Montserrat',
-      fontWeight: '400'
+      fontWeight: '300'
     });
 
     function generateRandomTitle(i, logoRandom) {
