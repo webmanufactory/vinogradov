@@ -4,10 +4,10 @@ function play() {
   setTimeout(function () {
     var logoTitle = 'Художник, Blockchain developer';
     var logoRandom = '';
-    var logoTitleContainer = l.text(0, '90%', '');
+    var logoTitleContainer = l.text(12, '75%', '');
     var possible = "-+*/|}{[]~\\\":;?/.><=+-_)(*&^%$#@!)}";
     logoTitleContainer.attr({
-      fontSize: 45,
+      fontSize: 14,
       fontFamily: 'Montserrat',
       fontWeight: '300'
     });
